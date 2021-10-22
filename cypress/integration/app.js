@@ -4,7 +4,7 @@ describe('Pokedex', function() {
   // })
 
   it('front page can be opened', function() {
-    cy.visit( Cypress.config().baseUrl )
+    // cy.visit( Cypress.config().baseUrl )
     cy.contains('Pokémon and Pokémon character names are trademarks of Nintendo.')
   })
 })
